@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background: linear-gradient(to right, rgb(237, 60, 116), rgb(236, 167, 103), rgb(235, 175, 65), rgb(248, 248, 130));
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+}
+.counter > p{
+    display: flex;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2.4rem;
+}
+.counter > p > span{
+    font-size: 2.3rem;
+}
