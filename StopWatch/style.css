@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.container{
+    width: 101%;
+    height: 101dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.85);
+    color: #f0f8ff;
+}
+.stopWatch{
+    border: 2px solid grey;
+    border-radius: 4rem;
+    padding: 4rem;
+    text-align: center;
+    background-color: rgba(240, 248, 255,0.06);
+}
+.stopWatch p {
+    font-size: 4em;
+    letter-spacing: 0.1em;
+}
+button{
+    margin: 15px 0 0;
+    width: 6rem;
+    height: 3rem;
+    color: #f0f8ff;
+    border: 1px solid gray;
+    background: none;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(240, 248, 255, 0.8);
+    color: #000;
+}
