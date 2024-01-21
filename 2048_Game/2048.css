@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+}
+hr{
+    width: 500px;
+}
+#board{
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(245, 231, 216,0.4);
+    border: 4px solid rgb(247, 216, 183);
+    border-radius: 10px;
+
+}
+.box{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgba(243, 204, 142,0.2);
+    margin: 5px;
+}
+.x2{
+    color: #000 ;
+    background-color: rgba(254, 196, 196, 0.33);
+}
+.x4{
+    color: #000 ;
+    background-color: rgba(254, 196, 196, 0.65);  
+}
+.x8{
+    color: #000 ;
+    background-color: rgba(254, 196, 196, 0.8);
+}
+.x16{
+    color: #000 ;
+    background-color: rgba(252, 85, 69, 0.3);
+}
+.x32{
+    color: #000 ;
+    background-color: rgba(252, 85, 69, 0.4);
+}
+.x64{
+    color: #000 ;
+    background-color: rgba(252, 85, 69, 0.5);
+}
+.x128{
+    color: #eee ;
+    background-color: rgba(252, 85, 69, 0.6);
+}
+.x256{
+    color: #eee ;
+    background-color: rgba(252, 85, 69, 0.7);
+}
+.x512{
+    color: #eee ;
+    background-color: rgba(252, 85, 69, 0.8);
+}
+.x1024{
+    color: #fff ;
+    background-color: rgba(253, 25, 4,0.7);
+    
+}
+.x2048{
+    color: #fff ;
+    background-color: rgba(255, 21, 0, 1);
+
+}
