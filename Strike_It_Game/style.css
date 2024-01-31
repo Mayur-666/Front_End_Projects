@@ -1,0 +1,97 @@
+.myGame {
+  height: 100dvh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  background-color: rgb(49, 49, 49);
+}
+body {
+  overflow: hidden;
+}
+.scoreBoard {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  display: none;
+  font: 600 1.2vmax "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+}
+form {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60vw;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+form > select,
+form select option {
+  padding: 2vmax;
+  width: 20vw;
+  text-align: center;
+  font: 600 1.5vmax cursive, sans-serif;
+  border: none;
+  margin: 1vmax;
+}
+form > input {
+  margin: 2vmax;
+  padding: 2vmax;
+  width: 20vw;
+  color: #fff;
+  background-color: indianred;
+  font-size: 1.4vmax;
+  cursor: pointer;
+  font-family: cursive, sans-serif;
+  outline: none;
+  transition: all 0.5s;
+  border: none;
+}
+form > select:hover {
+  box-shadow: 0 0 10px #fff;
+}
+form > input:hover {
+  background-color: rgb(194, 27, 91);
+  box-shadow: 0 0 10px #fff;
+}
+.gameOver {
+  background-color: rgba(122, 122, 122, 0.041);
+  border-radius: 5px;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameOver > button {
+  padding: 1vmax;
+  border: 2px solid #fff;
+  cursor: pointer;
+  width: 10vw;
+  background-color: #fff;
+  font: 900 1.1vmax cursive, sans-serif;
+  transition: all 0.5s;
+}
+.gameOver > button:hover {
+  box-shadow: 0 0 10px #fff;
+  color: #fff;
+  background-color: rgb(30, 30, 34);
+}
+.gameOver > div {
+  margin: 2vmax;
+  color: #fff;
+  font: 600 1.2vmax cursive, sans-serif;
+}
